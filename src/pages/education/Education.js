@@ -5,7 +5,7 @@ export default function Education() {
     <>
       <Gnb />
       <br />
-      Education; Education; Education;
+      Education 페이지가 될 곳
     </>
   );
 }
