@@ -19,22 +19,15 @@ import thumbsUp from "../../assets/ai-development/emoji-thumbsUp.png";
 import tools from "../../assets/ai-development/emoji-tools.png";
 import files from "../../assets/ai-development/files.png";
 
+import AiDevlopmentTitle from "./components/AiDevlopmentTitle";
+
 export default function AiDevelopment() {
   return (
     <>
       <Gnb />
       <br />
       <div className={styles.AiDevelopmentContents}>
-        <div className={styles.AiDevelopmentTitle}>
-          <h1 className={styles.h1}>AI 개발</h1>
-          <p className={styles.h1P}>
-            <b>고품질 학습 데이터를 통해</b> 학습시켜서 AI 모델을 추천하고
-            개발합니다.
-            <br />
-            AI의 목적을 고려해서 구축한 <b>고품질 데이터셋</b>을 학습시키기
-            때문에 더 개선된 성능을 확보할 수 있습니다.
-          </p>
-        </div>
+        <AiDevlopmentTitle />
         <div className={styles.bgGray1}>
           <h3 className={styles.h3}>걱정하지 마세요.</h3>
           <div className={`${styles.bgGray1Container} ${styles.inside}`}>
